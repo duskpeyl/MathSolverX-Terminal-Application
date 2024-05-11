@@ -22,6 +22,8 @@ The progress window is a simple feature that tracks all of the problems that you
 
 #### Feature 3: User Stats Window - Find statistics about your math solving ability 
 
+The user stats window is a feature that gives you statistics about your mathematical abilities in various areas, normally in the form of percentages (solved/total). The user stats windows doubles as the user's profile, coming with a customizable description that can be edited using terminal input.
+
 ### Code Style
 
 The code for this project was styled according to [the PEP 8 Style Guide by Guido van Rossum, Barry Warsaw, and Alyssa Coghlan.](https://peps.python.org/pep-0008/)
