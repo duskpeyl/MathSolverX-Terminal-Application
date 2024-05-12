@@ -31,7 +31,13 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 ### Implementation Plan
 
 ### Overall Plan
-[Overall_Plan](src=docs/Overall_Plan.html)
+![Overall_Plan](src=docs/Overall_Plan.html)
+
+### Day-by-day
+
+![Terminal_Application_1](src=docs/Terminal_Application_Day_1)
+![Terminal_Application_2](src=docs/Terminal_Application_Day_2)
+
 ### Dependencies  
 
 ### Installation Guide
