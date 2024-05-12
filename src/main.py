@@ -35,13 +35,6 @@ class Problem:
         cls.stored_problems.append(new_problem_given_by_system)
     
     @classmethod
-    def remove_old_problem(cls):
-        """
-        Removes the oldest problem from the list of stored problems.
-        """
-        cls.stored_problems.pop(0)
-    
-    @classmethod
     def increase_number_of_solved_problems(cls):
         """
         Increases the number of solved problems by 1.
@@ -66,24 +59,24 @@ class MathLearningSystem:
         """Fetches math problems from math competitions"""
         problemset =  [
              {  'id': 1,
-                'topic': 'Algebra',
+                'topic': 'Addition',
                 'difficulty': 'Easy',
-                'statement': 'Solve for x: 2x + 5 = 15',
-                'solution': 5
+                'statement': 'What is the ones digit of: 222,222 - 22,222 - 2,222 - 222 - 22 - 2?',
+                'solution': 2
             },
             {
                 'id': 2,
-                'topic': 'Geometry',
+                'topic': 'Fractions',
                 'difficulty': 'Medium',
-                'statement': 'Find the area of a triangle with base 6 and height 4',
-                'solution': 12
+                'statement': 'What is this expression in decimal form? 44/11 + 110/44 + 44/1100',
+                'solution': 6.54
             },
             {
                 'id': 3,
-                'topic': 'Calculus',
+                'topic': 'Word Problem',
                 'difficulty': 'Hard',
-                'statement': 'Find the derivative of f(x) = x^3 + 2x^2 - 5x + 1',
-                'solution': '3x^2 + 4x - 5'
+                'statement': 'A roll of tape is 4 inches in diameter and is wrapped around a ring that is 2 inches in diameter. A cross section of the tape is shown in the figure below. The tape is 0.015 inches thick. If the tape is completely unrolled, approximately how long would it be? Round your answer to the nearest 100 inches.',
+                'solution': 600
             }
         ]
 
