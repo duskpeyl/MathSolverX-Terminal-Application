@@ -32,12 +32,16 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 
 ### Overall Plan
 
-![Overall_Plan](docs/Overall_Plan.html)
+![Overall_Plan](./docs/Overall_Plan.PNG)
 
 ### Day-by-day
 
-![Terminal_Application_1](./docs/Terminal_Application_Day_1.PNG)
-![Terminal_Application_2](./docs/Terminal_Application_Day_2.PNG)
+11/05/2024
+![Terminal_Application_1](./docs/Terminal_Application_Day_by_Day_1.PNG)
+12/05/2024
+![Terminal_Application_2](./docs/Terminal_Application_Day_by_Day_2.PNG)
+13/05/2024
+![Terminal_Application_3](./docs/Terminal_Application_Day_by_Day_3.PNG)
 
 ### Dependencies  
 
@@ -53,7 +57,7 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 ### References
 
 * Python Software Foundation (2024). Datetime — Basic Date and Time Types — Python 3.12.3 Documentation. [online] Python.org. Available at: https://docs.python.org/3/library/datetime.html.
-* www.gnu.org. (2022). Bash Reference Manual. [online] Available at: https://www.gnu.org/software/bash/manual/bash.html.
+* GNU (2022). Bash Reference Manual. [online] Available at: https://www.gnu.org/software/bash/manual/bash.html.
 * Van Rossum, G., Warsaw, B. and Coghlan, N. (2023). PEP 8 – Style Guide for Python Code | peps.python.org. [online] peps.python.org. Available at: https://peps.python.org/pep-0008/.
 * Pytest (2024). Full pytest documentation — pytest documentation. [online] Available at: https://docs.pytest.org/en/8.2.x/contents.html.
 * Python Software Foundation (2024). Random — Generate pseudo-random numbers — Python 3.12.3 Documentation. [online] Python.org. Available at: https://docs.python.org/3/library/random.html.
