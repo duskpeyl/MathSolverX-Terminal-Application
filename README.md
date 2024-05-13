@@ -1,4 +1,4 @@
- # Terminal-Application-Mathcounts-AMC-Solver
+# Terminal-Application-Mathcounts-AMC-Solver
 
 ## Github Repo
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-This terminal application is an math learning system designed for math enthusiasts who want to improve their problem solving skills using problemsets from various math competitions such as MOEMS, AMC and MATHCOUNTS. As a person who solves a lot of these problems myself, I often find it difficult to organize problems for revision in an easy and comprehensive way due to the the lack of organization. 
+This terminal application is an math learning system designed for math enthusiasts who want to improve their problem solving skills using problemsets from various math competitions such as MOEMS, AMC and MATHCOUNTS. As a person who solves a lot of these problems myself, I often find it difficult to organize problems for revision in an easy and comprehensive way due to the the lack of organization.
 
 The purpose of this terminal application is to simultaneously provide a place for users to solve math problems, find previously solved or unsolved problems (and be able to sort through them, whether that be in a datetime format or topic), and provide basic statistics about a user's particular weakness on a math subject. 
 
@@ -31,17 +31,29 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 ### Implementation Plan
 
 ### Overall Plan
-![Overall_Plan](src=docs/Overall_Plan.html)
+
+![Overall_Plan](docs/Overall_Plan.html)
 
 ### Day-by-day
 
-![Terminal_Application_1](docs/Terminal_Application_Day_1)
-![Terminal_Application_2](docs/Terminal_Application_Day_2)
+![Terminal_Application_1](./docs/Terminal_Application_Day_1.PNG)
+![Terminal_Application_2](./docs/Terminal_Application_Day_2.PNG)
 
 ### Dependencies  
 
+* exceptiongroup==1.2.1
+* iniconfig==2.0.0
+* packaging==24.0
+* pluggy==1.5.0
+* pytest==8.2.0
+* tomli==2.0.1
+
 ### Installation Guide
 
-### Documentation
-
 ### References
+
+* Python Software Foundation (2024). Datetime — Basic Date and Time Types — Python 3.12.3 Documentation. [online] Python.org. Available at: https://docs.python.org/3/library/datetime.html.
+* www.gnu.org. (2022). Bash Reference Manual. [online] Available at: https://www.gnu.org/software/bash/manual/bash.html.
+* Van Rossum, G., Warsaw, B. and Coghlan, N. (2023). PEP 8 – Style Guide for Python Code | peps.python.org. [online] peps.python.org. Available at: https://peps.python.org/pep-0008/.
+* Pytest (2024). Full pytest documentation — pytest documentation. [online] Available at: https://docs.pytest.org/en/8.2.x/contents.html.
+* Python Software Foundation (2024). Random — Generate pseudo-random numbers — Python 3.12.3 Documentation. [online] Python.org. Available at: https://docs.python.org/3/library/random.html.
