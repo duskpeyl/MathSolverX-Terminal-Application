@@ -14,7 +14,7 @@ def test_constructor(sample_problem):
     assert sample_problem.difficulty == 'Easy'
     assert sample_problem.statement == 'What is 1 + 1?'
 
-# test_add_new_problem tests whether the sample problem can be stored inside Problem's stored problem class attribute.
+# test_add_new_problem tests if the sample problem can be stored inside Problem's stored problem class attribute.
 # Testing whether the sample problem is inside stored_problem is necessary because the math learning system takes problems out of it.
 # Without our sample problem inside the stored problem attribute, we cannot display problems for the user to solve.
 
