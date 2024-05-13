@@ -11,10 +11,10 @@ class Problem:
         Initializes a Problem instance.
 
         Args:
-            problem_id (int): The ID of the problem.
-            topic (str): The topic of the problem.
-            difficulty (str): The difficulty level of the problem.
-            statement (str): The problem statement.
+            problem_id (int): The ID of the math problem.
+            topic (str): The topic of the math problem.
+            difficulty (str): The difficulty level of the math problem.
+            statement (str): The problem statement of the math problem.
             solution (int or str): The correct solution to the problem.
         """
         self.problem_id = problem_id
@@ -100,7 +100,13 @@ class MathLearningSystem:
         print("Difficulty: ", displayed_problem.difficulty)
         print("Statement: ", displayed_problem.statement)
 
-        solution = int(input("Enter your solution: "))
+        while True:
+            try:
+                solution = int(input("Enter your solution: "))
+                break
+            except ValueError:
+                print("Invalid input. Please enter an integer")
+
         if solution == displayed_problem.solution:
             self.skill_exp += 10
             displayed_problem.solved = True
@@ -120,19 +126,22 @@ class MathLearningSystem:
         print("1. Sort by datetime (earliest solved)")
         print("2. Sort by datetime (oldest solved)")
         print("3. Sort by topic")
-
-        choice = input("Enter your choice: ")
         
-        if choice == '1':
+        while True:
+            try:
+                choice = int(input("Enter your choice: "))
+                if choice in [1, 2, 3]:
+                    break
+            except ValueError:
+                print("Invalid input. Please enter an integer")
+        
+        if choice == 1:
             sorted_problems = sorted(self.solved_problems, key=lambda x: x.datetime_solved)
-        elif choice == '2':
+        elif choice == 2:
             sorted_problems = sorted(self.solved_problems, key=lambda x: x.datetime_solved, reverse=True)
-        elif choice == '3':
+        elif choice == 3:
             topic = input("Enter the topic: ")
             sorted_problems = [problem for problem in self.solved_problems if problem.topic() == topic]
-        else:
-            print("Invalid choice.")
-            return
 
         for loop in sorted_problems:
             print("Problem ID: ", loop.problem_id)
@@ -176,5 +185,11 @@ class MathLearningSystem:
         self.main_menu()
         print('Where would you like to go?')
 
-learning_system = MathLearningSystem()
-learning_system.run()
+def run_main():
+    learning_system = MathLearningSystem()
+    learning_system.run()
+
+if __name__ == '__main__':
+    #If our current running file is main, then call the function to open the menu.
+    #The reason why we ask is to prevent our test_main.py file from opening the menu when running testcases.
+    run_main()
