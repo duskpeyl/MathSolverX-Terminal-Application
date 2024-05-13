@@ -40,6 +40,7 @@ class Problem:
         Increases the number of solved problems by 1.
         """
         cls.number_of_solved_problems += 1
+        Problem.increase_number_of_attempted_problems()
 
     @classmethod
     def increase_number_of_attempted_problems(cls):
@@ -89,8 +90,8 @@ class MathLearningSystem:
             problem_given_by_system = Problem(problem_id=item_problem_id, topic=item_topic, difficulty=item_difficulty, statement=item_statement, solution=item_solution)
 
             Problem.add_new_problem(problem_given_by_system)
-        
-    
+
+
     def display_problem_solving_window(self):
         """Displays a math problem from the problemset for the user to solve."""
         self.fetch_problems()
@@ -114,7 +115,6 @@ class MathLearningSystem:
             self.solved_problems.append(displayed_problem)
 
             Problem.increase_number_of_solved_problems()
-            Problem.increase_number_of_attempted_problems()
             print("Congratulations! You solved the problem.")
         else:
             Problem.increase_number_of_attempted_problems()
@@ -140,6 +140,7 @@ class MathLearningSystem:
         elif choice == 2:
             sorted_problems = sorted(self.solved_problems, key=lambda x: x.datetime_solved, reverse=True)
         elif choice == 3:
+            print('You can choose between fractions, addition and word problems!')
             topic = input("Enter the topic: ")
             sorted_problems = [problem for problem in self.solved_problems if problem.topic() == topic]
 

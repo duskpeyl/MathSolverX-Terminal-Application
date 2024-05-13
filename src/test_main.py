@@ -27,3 +27,18 @@ def test_increase_number_of_attempted_problems():
     Problem.total_number_of_attempted_problems = 0
     Problem.increase_number_of_attempted_problems()
     assert Problem.total_number_of_attempted_problems == 1
+
+def test_increase_number_of_solved_problems():
+    Problem.number_of_solved_problems = 0
+    Problem.increase_number_of_solved_problems()
+    assert Problem.number_of_solved_problems == 1
+
+def test_user_stats():
+    Problem.number_of_solved_problems = 0
+    Problem.total_number_of_attempted_problems = 0
+
+    Problem.increase_number_of_attempted_problems()
+    Problem.increase_number_of_attempted_problems()
+    Problem.increase_number_of_solved_problems()
+
+    assert (Problem.number_of_solved_problems / Problem.total_number_of_attempted_problems * 100) == (1 / 3 * 100)
