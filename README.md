@@ -76,7 +76,7 @@ Once you have changed the permissions of the bash script within the root directo
 
 > bash terminal_application_script.sh
 
-This will downloaded all of the dependencies needed for the program to run, then start the program itself.
+This will download all of the dependencies needed for the program to run, then start the program itself.
 
 ### References
 
