@@ -8,7 +8,7 @@
 
 This terminal application is a math learning system designed for math enthusiasts who want to improve their problem solving skills using problem sets from various math competitions such as MOEMS, AMC and MATHCOUNTS. As a person who solves a lot of these problems myself, I often find it difficult to organize problems for revision in an easy and comprehensive way due to the the lack of organization.
 
-The purpose of this terminal application is to simultaneously provide a place for users to solve math problems, find previously solved or unsolved problems (and be able to sort through them, whether that be in a datetime format or topic), and provide basic statistics about a user's particular weakness on a math subject.
+The purpose of this terminal application is to simultaneously provide a place for users to solve math problems, find previously solved problems (and be able to sort through them, whether that be in a datetime format or topic), and provide basic statistics about a user's particular weakness on a math subject.
 
 ### Features
 
@@ -22,7 +22,7 @@ The progress window is a simple feature that tracks the problems that you have p
 
 #### Feature 3: User Stats Window - Find statistics about your math solving ability
 
-The user stats window is a feature that gives you statistics about your mathematical abilities in various areas, normally in the form of percentages (solved/total). The user stats windows doubles as the user's profile, coming with a customizable description that can be edited using terminal input.
+The user stats window is a feature that gives you statistics about your mathematical abilities in the form of percentages (solved/total). The user stats windows doubles as the user's profile, coming with a customizable description that can be edited using terminal input.
 
 ### Code Style
 
