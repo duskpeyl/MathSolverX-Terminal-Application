@@ -6,7 +6,7 @@
 
 ## Description
 
-This terminal application is an math learning system designed for math enthusiasts who want to improve their problem solving skills using problemsets from various math competitions such as MOEMS, AMC and MATHCOUNTS. As a person who solves a lot of these problems myself, I often find it difficult to organize problems for revision in an easy and comprehensive way due to the the lack of organization.
+This terminal application is a math learning system designed for math enthusiasts who want to improve their problem solving skills using problem sets from various math competitions such as MOEMS, AMC and MATHCOUNTS. As a person who solves a lot of these problems myself, I often find it difficult to organize problems for revision in an easy and comprehensive way due to the the lack of organization.
 
 The purpose of this terminal application is to simultaneously provide a place for users to solve math problems, find previously solved or unsolved problems (and be able to sort through them, whether that be in a datetime format or topic), and provide basic statistics about a user's particular weakness on a math subject.
 
@@ -18,7 +18,7 @@ This feature is the main component that enables the user to read and receive pro
 
 #### Feature 2: Progress Window - Find previously solved problems
 
-The progress window is a simple feature that tracks all of the problems that you have previously solved, or have failed to solve correctly. You can sort through these problems in the window by the problem's datetime (earliest solved/oldest solved), or by choosing the specific math topic of the problems.
+The progress window is a simple feature that tracks the problems that you have previously solved. You can sort through these problems in the window by the problem's datetime (earliest solved/oldest solved), or by choosing the specific math topic of the problems.
 
 #### Feature 3: User Stats Window - Find statistics about your math solving ability
 
@@ -62,13 +62,15 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 
 #### Step 1: Download the Project from Github
 
-To run this terminal application, simply navigate to the green code button on the github repository and press 'Download ZIP'.
+To run this terminal application, simply navigate to the green code button on the Github repository and press 'Download ZIP'.
 
 ### Step 2: Unzip the Project
 
-After installing the project in the form of a zip file, unzip the project and change the permissions of the bash script within the command line, with the following command:
+After installing the project in the form of a zip file, unzip the project and change the permissions of the bash script from the file within the command line, with the following command:
 
 > chmod +x terminal_application_script.sh
+
+This will allow your computer to execute the file.
 
 ### Step 3: Run the program
 
@@ -77,6 +79,8 @@ Once you have changed the permissions of the bash script within the root directo
 > bash terminal_application_script.sh
 
 This will download all of the dependencies needed for the program to run, then start the program itself.
+
+
 
 ### References
 
