@@ -1,3 +1,6 @@
+"""Pytest is used for testing the terminal application's functionality and 
+ensuring that there is no errors in the implementation of the program."""
+
 import pytest 
 from main import Problem, MathLearningSystem
 

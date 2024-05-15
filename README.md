@@ -37,11 +37,18 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 ### Day-by-day
 
 11/05/2024
-![Terminal_Application_1](./docs/Terminal_Application_Day_by_Day_1.PNG)
+![Terminal_Application_Day_1](./docs/Terminal_Application_Day_by_Day_1.PNG)
 12/05/2024
-![Terminal_Application_2](./docs/Terminal_Application_Day_by_Day_2.PNG)
+![Terminal_Application_Day_2](./docs/Terminal_Application_Day_by_Day_2.PNG)
 13/05/2024
-![Terminal_Application_3](./docs/Terminal_Application_Day_by_Day_3.PNG)
+![Terminal_Application_Day_3](./docs/Terminal_Application_Day_by_Day_3.PNG)
+
+![TODO_levelup_checklist](./docs/todo_levelup.PNG)
+![TODO_menu_checklist](./docs/todo_menu.PNG)
+![TODO_problems_checklist](./docs/todo_problems.PNG)
+![TODO_progress_checklist](./docs/todo_progress.PNG)
+![TODO_userstats_checklist](./docs/todo_userstats.PNG)
+
 
 ### Dependencies  
 
@@ -60,7 +67,7 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 
 ### Installation Guide
 
-#### Step 1: Download the Project from Github
+### Step 1: Download the Project from Github
 
 To run this terminal application, simply navigate to the green code button on the Github repository and press 'Download ZIP'.
 
@@ -79,8 +86,6 @@ Once you have changed the permissions of the bash script within the root directo
 > bash terminal_application_script.sh
 
 This will download all of the dependencies needed for the program to run, then start the program itself.
-
-
 
 ### References
 

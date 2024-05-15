@@ -55,7 +55,12 @@ class MathLearningSystem:
         self.skill_exp = 0
         self.level = 1
         self.solved_problems = []
+        self.custom_profile_description = ''
     
+    def customize_profile_description(self):
+        print('What would you like to change your profile description to?')
+        self.custom_profile_description = input()
+
     def fetch_problems(self):
         """Fetches math problems from math competitions"""
         problemset =  [
@@ -115,7 +120,7 @@ class MathLearningSystem:
             self.solved_problems.append(displayed_problem)
 
             Problem.increase_number_of_solved_problems()
-            print("Congratulations! You solved the problem.")
+            print("Congratulations! You solved the problem and gained 10 skill exp!.")
         else:
             Problem.increase_number_of_attempted_problems()
             print("Sorry, your solution is incorrect.")
@@ -157,7 +162,24 @@ class MathLearningSystem:
         print(f'Skill Exp: {self.skill_exp}')
         print(f'Level: {self.level}')
         print(f'Number of Solved Problems: {Problem.number_of_solved_problems}')
-        print(f'Percentage of correct answers: {Problem.number_of_solved_problems / Problem.total_number_of_attempted_problems * 100}')
+
+        try:
+            print(f'Percentage of correct answers: {Problem.number_of_solved_problems / Problem.total_number_of_attempted_problems * 100}')
+        except ZeroDivisionError:
+            print('You haven\'t attempted any problems yet!')
+
+        print(f'\nUser Description: {self.custom_profile_description}')
+
+        print("\n What would you like to do next?")
+        print('1. Edit my custom profile description')
+        print('2. Return to the Main Menu')
+
+        select_choice_for_user_stats = int(input())
+
+        if select_choice_for_user_stats == 1:
+            self.customize_profile_description()
+        if select_choice_for_user_stats == 2:
+            self.main_menu()
 
     def main_menu(self):
         """Displays the main menu and handles user input."""
@@ -168,15 +190,15 @@ class MathLearningSystem:
             print("3. User Stats Window")
             print("4. Quit")
 
-            choice = input("Enter your choice: ")
+            choice = int(input("Enter your choice: "))
 
-            if choice == '1':
+            if choice == 1:
                 self.display_problem_solving_window()
-            elif choice == '2':
+            elif choice == 2:
                 self.display_progress_window()
-            elif choice == '3':
+            elif choice == 3:
                 self.display_user_stats_window()
-            elif choice == '4':
+            elif choice == 4:
                 break
             else:
                 print("Invalid choice.")
