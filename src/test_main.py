@@ -1,11 +1,12 @@
 """Pytest is used for testing the terminal application's functionality and 
 ensuring that there is no errors in the implementation of the program."""
 
-import pytest 
+import pytest
 from main import Problem, MathLearningSystem
 
 # This test function tests the Problem class construction method by creating a sample problem. 
 # The second test function whether the attributes were allocated correctly in our sample problem.
+
 @pytest.fixture
 def sample_problem():
     return Problem(problem_id=5, topic='Addition', difficulty='Easy', statement='What is 1 + 1?', solution=2)
@@ -17,9 +18,9 @@ def test_constructor(sample_problem):
     assert sample_problem.difficulty == 'Easy'
     assert sample_problem.statement == 'What is 1 + 1?'
 
-# test_add_new_problem tests if the sample problem can be stored inside Problem's stored problem class attribute.
-# Testing whether the sample problem is inside stored_problem is necessary because the math learning system takes problems out of it.
-# Without our sample problem inside the stored problem attribute, we cannot display problems for the user to solve.
+# test_add_new_problem tests if new problems can be stored inside Problem's stored problem class attribute.
+# Testing whether new problems can be stored is necessary because the math learning system uses stored problems.
+# Without our problems inside the stored problem attribute, we cannot display problems for the user to solve.
 
 def test_add_new_problem(sample_problem):
     Problem.stored_problem = []

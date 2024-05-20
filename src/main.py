@@ -62,30 +62,29 @@ class MathLearningSystem:
         self.custom_profile_description = input()
 
     def fetch_problems(self):
-        """Fetches math problems from math competitions"""
+        """Fetches math problems from math competitions from a list of problems."""
         problemset =  [
              {  'id': 1,
                 'topic': 'Addition',
                 'difficulty': 'Easy',
                 'statement': 'What is the ones digit of: 222,222 - 22,222 - 2,222 - 222 - 22 - 2?',
-                'solution': 2
+                'solution': '2'
             },
             {
                 'id': 2,
                 'topic': 'Fractions',
                 'difficulty': 'Medium',
                 'statement': 'What is this expression in decimal form? 44/11 + 110/44 + 44/1100',
-                'solution': 6.54
+                'solution': '6.54'
             },
             {
                 'id': 3,
                 'topic': 'Word Problem',
                 'difficulty': 'Hard',
                 'statement': 'A roll of tape is 4 inches in diameter and is wrapped around a ring that is 2 inches in diameter. A cross section of the tape is shown in the figure below. The tape is 0.015 inches thick. If the tape is completely unrolled, approximately how long would it be? Round your answer to the nearest 100 inches.',
-                'solution': 600
+                'solution': '600'
             }
         ]
-
         for current_item in problemset:
             item_problem_id = current_item['id']
             item_topic = current_item['topic']
@@ -98,7 +97,8 @@ class MathLearningSystem:
 
 
     def display_problem_solving_window(self):
-        """Displays a math problem from the problemset for the user to solve."""
+        """Displays a math problem from the problemset for the user to 
+        solve and prompts the user to input a solution to the problem."""
         self.fetch_problems()
         displayed_problem = random.choice(Problem.stored_problems)
         print("Problem ID: ", displayed_problem.problem_id)
@@ -108,10 +108,10 @@ class MathLearningSystem:
 
         while True:
             try:
-                solution = int(input("Enter your solution: "))
+                solution = input("Enter your solution: ")
                 break
             except ValueError:
-                print("Invalid input. Please enter an integer")
+                print("Invalid input. Please enter a string")
 
         if solution == displayed_problem.solution:
             self.skill_exp += 10
@@ -135,7 +135,7 @@ class MathLearningSystem:
         while True:
             try:
                 choice = int(input("Enter your choice: "))
-                if choice in [1, 2, 3]:
+                if choice in ['1', '2', '3']:
                     break
             except ValueError:
                 print("Invalid input. Please enter an integer")
