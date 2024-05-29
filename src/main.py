@@ -58,6 +58,9 @@ class MathLearningSystem:
         self.custom_profile_description = ''
     
     def customize_profile_description(self):
+        """
+        Changes the text profile description of the user.
+        """
         print('What would you like to change your profile description to?')
         self.custom_profile_description = input()
 
@@ -90,15 +93,14 @@ class MathLearningSystem:
                 'difficulty': 'Hard',
                 'statement': 'Every morning Aya goes for a 9-kilometer-long walk and stops at a coffee shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 4 hours, including t minutes spent in the coffee shop. When she walks s+2 kilometers per hour, the walk takes her 2 hours and 24 minutes, including t minutes spent in the coffee shop. Suppose Aya walks at s + 1/2 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the coffee shop.',
                 'solution': '204'
-            }
+            },
             {
                 'id': 5,
                 'topic': 'Word Problem',
                 'difficulty': 'Hard',
                 'statement': 'A list of positive integers has the following properties: The sum of the items in the list is 30. The unique mode of the list is 9. The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.',
                 'solution': '236'
-            }
-        ]
+            }]
         for current_item in problemset:
             item_problem_id = current_item['id']
             item_topic = current_item['topic']
@@ -172,7 +174,7 @@ class MathLearningSystem:
             print("Date Solved: ", loop.datetime_solved)
     
     def display_user_stats_window(self):
-        """displays user stats"""
+        """Displays user stats."""
         print(f'Skill Exp: {self.skill_exp}')
         print(f'Level: {self.level}')
         print(f'Number of Solved Problems: {Problem.number_of_solved_problems}')
@@ -196,7 +198,8 @@ class MathLearningSystem:
             self.main_menu()
 
     def main_menu(self):
-        """Displays the main menu and handles user input."""
+        """Displays the main menu and handles user input. The user can choose 
+        between solving problems, sorting them or seeing their personal stats."""
         while True:
             print("\n== Math Learning System ==")
             print("1. Problem-Solving Window")
