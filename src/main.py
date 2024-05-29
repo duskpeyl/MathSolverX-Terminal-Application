@@ -83,6 +83,20 @@ class MathLearningSystem:
                 'difficulty': 'Hard',
                 'statement': 'A roll of tape is 4 inches in diameter and is wrapped around a ring that is 2 inches in diameter. A cross section of the tape is shown in the figure below. The tape is 0.015 inches thick. If the tape is completely unrolled, approximately how long would it be? Round your answer to the nearest 100 inches.',
                 'solution': '600'
+            },
+            {
+                'id': 4,
+                'topic': 'Word Problem',
+                'difficulty': 'Hard',
+                'statement': 'Every morning Aya goes for a 9-kilometer-long walk and stops at a coffee shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 4 hours, including t minutes spent in the coffee shop. When she walks s+2 kilometers per hour, the walk takes her 2 hours and 24 minutes, including t minutes spent in the coffee shop. Suppose Aya walks at s + 1/2 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the coffee shop.',
+                'solution': '204'
+            }
+            {
+                'id': 5,
+                'topic': 'Word Problem',
+                'difficulty': 'Hard',
+                'statement': 'A list of positive integers has the following properties: The sum of the items in the list is 30. The unique mode of the list is 9. The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.',
+                'solution': '236'
             }
         ]
         for current_item in problemset:
