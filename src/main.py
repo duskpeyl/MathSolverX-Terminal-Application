@@ -102,17 +102,17 @@ class MathLearningSystem:
                 'solution': '236'
             },
             {
-                'id': 5,
+                'id': 6,
                 'topic': 'Algebra',
                 'difficulty': 'Hard',
                 'statement': 'Suppose that a * b means 3a - b. What is the value of x if 2 * (5 * x) = 1?',
                 'solution': '10'
             },
             {
-                'id': 5,
+                'id': 7,
                 'topic': 'Algebra',
                 'difficulty': 'Hard',
-                'statement': 'There exist real numbers $x$ and $y$, both greater than 1, such that log_x(y^x)= log_y(x^4y) = 10. Find xy.',
+                'statement': 'There exist real numbers x and y, both greater than 1, such that log_x(y^x)= log_y(x^4y) = 10. Find xy.',
                 'solution': '025'
             }
             ]
@@ -137,6 +137,8 @@ class MathLearningSystem:
         print("Difficulty: ", displayed_problem.difficulty)
         print("Statement: ", displayed_problem.statement)
 
+        grant_exp = {'Easy': 10, 'Medium': 20, 'Hard': 50}
+
         while True:
             try:
                 solution = input("Enter your solution: ")
@@ -145,11 +147,11 @@ class MathLearningSystem:
                 print("Invalid input. Please enter a string")
 
         if solution == displayed_problem.solution:
-            self.skill_exp += 10
             displayed_problem.solved = True
             displayed_problem.datetime_solved = datetime.datetime.now()
+            self.skill_exp += grant_exp[displayed_problem.difficulty]
             self.solved_problems.append(displayed_problem)
-
+    
             Problem.increase_number_of_solved_problems()
             print("Congratulations! You solved the problem and gained 10 skill exp!.")
         else:
