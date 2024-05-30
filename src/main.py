@@ -100,7 +100,22 @@ class MathLearningSystem:
                 'difficulty': 'Hard',
                 'statement': 'A list of positive integers has the following properties: The sum of the items in the list is 30. The unique mode of the list is 9. The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.',
                 'solution': '236'
-            }]
+            },
+            {
+                'id': 5,
+                'topic': 'Algebra',
+                'difficulty': 'Hard',
+                'statement': 'Suppose that a * b means 3a - b. What is the value of x if 2 * (5 * x) = 1?',
+                'solution': '10'
+            },
+            {
+                'id': 5,
+                'topic': 'Algebra',
+                'difficulty': 'Hard',
+                'statement': 'There exist real numbers $x$ and $y$, both greater than 1, such that log_x(y^x)= log_y(x^4y) = 10. Find xy.',
+                'solution': '025'
+            }
+            ]
         for current_item in problemset:
             item_problem_id = current_item['id']
             item_topic = current_item['topic']
