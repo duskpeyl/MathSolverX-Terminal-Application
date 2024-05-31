@@ -114,6 +114,13 @@ class MathLearningSystem:
                 'difficulty': 'Hard',
                 'statement': 'There exist real numbers x and y, both greater than 1, such that log_x(y^x)= log_y(x^4y) = 10. Find xy.',
                 'solution': '025'
+            },
+            {
+                'id': 8,
+                'topic': 'Algebra',
+                'difficulty': 'Hard',
+                'statement': 'The least common multiple of a positive integer n and 18 is 180, and the greatest common divisor of n and 45 is 15. What is the sum of the digits of n?',
+                'solution': '6'
             }
             ]
         for current_item in problemset:
