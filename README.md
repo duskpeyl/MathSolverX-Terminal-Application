@@ -75,6 +75,7 @@ To run this terminal application, simply navigate to the green code button on th
 
 After installing the project in the form of a zip file, unzip the project and change the permissions of the bash script from the file within the command line, with the following command:
 
+> cd ~/Downloads/Terminal-Application-Mathcounts-AMC-Solver-main
 > chmod +x terminal_application_script.sh
 
 This will allow your computer to execute the file.

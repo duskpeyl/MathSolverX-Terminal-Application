@@ -185,7 +185,7 @@ class MathLearningSystem:
         elif choice == 2:
             sorted_problems = sorted(self.solved_problems, key=lambda x: x.datetime_solved, reverse=True)
         elif choice == 3:
-            print('You can choose between fractions, addition and word problems!')
+            print('You can choose between algebra, fractions, addition and word problems!')
             topic = input("Enter the topic: ")
             sorted_problems = [problem for problem in self.solved_problems if problem.topic() == topic]
 
