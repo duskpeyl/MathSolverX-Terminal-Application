@@ -121,7 +121,12 @@ class MathLearningSystem:
                 'difficulty': 'Hard',
                 'statement': 'The least common multiple of a positive integer n and 18 is 180, and the greatest common divisor of n and 45 is 15. What is the sum of the digits of n?',
                 'solution': '6'
-            }
+            },
+            {   'id': 8,
+                'topic': 'Casework Counting',
+                'difficulty': 'Hard',
+                'statement': 'How many ways are there to split the integers $1$ through $14$ into $7$ pairs such that in each pair, the greater number is at least $2$ times the lesser number?',
+                'solution': '144'}
             ]
         for current_item in problemset:
             item_problem_id = current_item['id']
