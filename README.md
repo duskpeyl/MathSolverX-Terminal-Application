@@ -24,11 +24,11 @@ The progress window is a simple feature that tracks the problems that you have p
 
 The user stats window is a feature that gives you statistics about your mathematical abilities in the form of percentages (solved/total). The user stats windows doubles as the user's profile, coming with a customizable description that can be edited using terminal input.
 
-### Code Style
+## Code Style
 
 The code for this project was styled according to [the PEP 8 Style Guide by Guido van Rossum, Barry Warsaw, and Alyssa Coghlan.](https://peps.python.org/pep-0008/)
 
-### Implementation Plan
+## Implementation Plan
 
 ### Overall Plan
 
@@ -36,11 +36,16 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 
 ### Day-by-day
 
-11/05/2024
+#### 11/05/2024
+
 ![Terminal_Application_Day_1](./docs/Terminal_Application_Day_by_Day_1.PNG)
-12/05/2024
+
+#### 12/05/2024
+
 ![Terminal_Application_Day_2](./docs/Terminal_Application_Day_by_Day_2.PNG)
-13/05/2024
+
+#### 13/05/2024
+
 ![Terminal_Application_Day_3](./docs/Terminal_Application_Day_by_Day_3.PNG)
 
 ![TODO_levelup_checklist](./docs/todo_levelup.PNG)
@@ -48,7 +53,6 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 ![TODO_problems_checklist](./docs/todo_problems.PNG)
 ![TODO_progress_checklist](./docs/todo_progress.PNG)
 ![TODO_userstats_checklist](./docs/todo_userstats.PNG)
-
 
 ### Dependencies  
 
@@ -73,9 +77,10 @@ To run this terminal application, simply navigate to the green code button on th
 
 ### Step 2: Unzip the Project
 
-After installing the project in the form of a zip file, unzip the project and change the permissions of the bash script from the file within the command line, with the following command:
+After installing the project in the form of a zip file, unzip the project and change the permissions of the bash script from the file within the command line, with the following commands:
 
 > cd ~/Downloads/Terminal-Application-Mathcounts-AMC-Solver-main
+
 > chmod +x terminal_application_script.sh
 
 This will allow your computer to execute the file.
