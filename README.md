@@ -81,7 +81,7 @@ After installing the project in the form of a zip file, unzip the project and ch
 
 > cd ~/Downloads/Terminal-Application-Mathcounts-AMC-Solver-main
 
-> chmod +x terminal_application_script.sh
+> chmod +x run_terminal_application.sh
 
 This will allow your computer to execute the file.
 
@@ -89,7 +89,7 @@ This will allow your computer to execute the file.
 
 Once you have changed the permissions of the bash script within the root directory of the unzipped project, run the following command:
 
-> bash terminal_application_script.sh
+> bash run_terminal_application.sh
 
 This will download all of the dependencies needed for the program to run, then start the program itself.
 
