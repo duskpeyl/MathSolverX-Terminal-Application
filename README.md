@@ -1,8 +1,8 @@
-# Terminal-Application-Mathcounts-AMC-Solver
+# MathSolverX-Terminal-Application
 
 ## Github Repo
 
-[Github Project Link](https://github.com/aztrocord/Terminal-Application-Mathcounts-AMC-Solver)
+[Github Project Link](https://github.com/duskpeyl/MathSolverX-Terminal-Application)
 
 ## Description
 
