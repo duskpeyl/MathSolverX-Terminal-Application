@@ -6,9 +6,9 @@
 
 ## Description
 
-This terminal application is a math learning system designed for math enthusiasts who want to improve their problem solving skills using problem sets from various math competitions such as MOEMS, AMC and MATHCOUNTS. As a person who solves a lot of these problems myself, I often find it difficult to organize problems for revision in an easy and comprehensive way due to the the lack of organization.
+This terminal application is a math learning system designed for students who want to improve their problem solving skills using problem sets from various math competitions such as MOEMS, AMC and MATHCOUNTS. As a fervent problem solver myself, I often find it difficult to organize problems for revision in an easy and comprehensive way due to the the lack of organization.
 
-The purpose of this terminal application is to simultaneously provide a place for users to solve math problems, find previously solved problems (and be able to sort through them, whether that be in a datetime format or topic), and provide basic statistics about a user's particular weakness on a math subject.
+The purpose of this terminal application is to simultaneously provide a place for users to solve math problems, find previously solved problems (be able to sort through them, whether that be in a datetime format or topic), and provide basic statistics about a user's particular weakness on a math subject.
 
 ### Features
 
