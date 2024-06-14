@@ -1,55 +1,40 @@
 # MathSolverX-Terminal-Application
 
-### Table of Contents
-1. [Description](#Description)
-2. [Features](#Features)
-    1. [Problem-Solving Window - Solve problems](#feature1)
-    2. [Progress Window - Find previously solved problems](#feature2)
-    3. [Feature 3: User Stats Window - Find statistics about your math solving ability](#feature3)
-3. [Code Style](#CodeStyle)
-4. [Implementation Plan](#paragraph2)
-    1. [Overall Plan](#OverallPlan)    
-    2. [Day-by-Day (Trello Board)](#Day-by-Day)
-5. [Dependencies](#Dependencies)
-6. [Imported Packages](#ImportedPackages)
-7. [Installation Guide](#InstallationGuide)
-8. [References](#References)
-
 ## Github Repo
 
 [Github Project Link](https://github.com/duskpeyl/MathSolverX-Terminal-Application)
 
-## Description <a name="Description"></a>
+## Description 
 
 This terminal application is a math learning system designed for students who want to improve their problem solving skills using problem sets from various math competitions such as MOEMS, AMC and MATHCOUNTS. As a fervent problem solver myself, I often find it difficult to organize problems for revision in an easy and comprehensive way due to the the lack of organization.
 
 The purpose of this terminal application is to simultaneously provide a place for users to solve math problems, find previously solved problems (be able to sort through them, whether that be in a datetime format or topic), and provide basic statistics about a user's particular weakness on a math subject.
 
-### Features <a name="Features"></a>
+### Features 
 
-#### Feature 1: Problem-Solving Window - Solve problems <a name="feature1"></a>
+#### Feature 1: Problem-Solving Window - Solve problems 
 
 This feature is the main component that enables the user to read and receive problems. Problems sourced from math competitions are randomly selected depending on your initial skill level, and solving them through terminal input gives you EXP that go toward your skill exp bar. Upon a milestone in skill EXP, you level up and increase your chances of getting more difficult math problems.
 
-#### Feature 2: Progress Window - Find previously solved problems <a name="feature2"></a>
+#### Feature 2: Progress Window - Find previously solved problems 
 
 The progress window is a simple feature that tracks the problems that you have previously solved. You can sort through these problems in the window by the problem's datetime (earliest solved/oldest solved), or by choosing the specific math topic of the problems.
 
-#### Feature 3: User Stats Window - Find statistics about your math solving ability <a name="feature3"></a>
+#### Feature 3: User Stats Window - Find statistics about your math solving ability 
 
 The user stats window is a feature that gives you statistics about your mathematical abilities in the form of percentages (solved/total). The user stats windows doubles as the user's profile, coming with a customizable description that can be edited using terminal input.
 
-## Code Style <a name="CodeStyle"></a>
+## Code Style 
 
 The code for this project was styled according to [the PEP 8 Style Guide by Guido van Rossum, Barry Warsaw, and Alyssa Coghlan.](https://peps.python.org/pep-0008/)
 
-## Implementation Plan <a name="ImplementationPlan"></a>
+## Implementation Plan 
 
-### Overall Plan <a name="OverallPlan"></a>
+### Overall Plan 
 
 ![Overall_Plan](./docs/Overall_Plan.PNG)
 
-### Day-by-day <a name="Day-by-day"></a>
+### Day-by-day 
 
 #### 11/05/2024
 
@@ -69,7 +54,7 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 ![TODO_progress_checklist](./docs/todo_progress.PNG)
 ![TODO_userstats_checklist](./docs/todo_userstats.PNG)
 
-### Dependencies <a name="Dependencies"></a>
+### Dependencies 
 
 * exceptiongroup==1.2.1
 * iniconfig==2.0.0
@@ -78,13 +63,13 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 * pytest==8.2.0
 * tomli==2.0.1
 
-### Imported Packages/Modules <a name="ImportedPackages"></a>
+### Imported Packages/Modules 
 
 * datetime
 * random
 * pytest
 
-### Installation Guide <a name="InstallationGuide"></a>
+### Installation Guide 
 
 ### Step 1: Download the Project from Github
 
@@ -108,7 +93,7 @@ Once you have changed the permissions of the bash script within the root directo
 
 This will download all of the dependencies needed for the program to run, then start the program itself.
 
-### References <a name="References"></a>
+### References 
 
 * Python Software Foundation (2024). Datetime — Basic Date and Time Types — Python 3.12.3 Documentation. [online] Python.org. Available at: [Link to datetime library](https://docs.python.org/3/library/datetime.html).
 * GNU (2022). Bash Reference Manual. [online] Available at: [Link to Bash Manual](https://www.gnu.org/software/bash/manual/bash.html).
