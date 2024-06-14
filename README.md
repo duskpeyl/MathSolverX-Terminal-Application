@@ -1,6 +1,6 @@
 # MathSolverX-Terminal-Application
 
-#@ Table of Contents
+### Table of Contents
 1. [Description](#Description)
 2. [Features](#Features)
     1. [Problem-Solving Window - Solve problems](#feature1)
