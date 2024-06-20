@@ -15,7 +15,7 @@ class Problem:
             difficulty (str): The difficulty level of the math problem.
             statement (str): The problem statement of the math problem.
             solution (str): The correct solution to the problem.
-            datetime_solved (date): The date that the problem was solved.
+            datetime_solved (datetime): The date that the problem was solved.
             topic (str): The topic of the math problem.
         """
         self.problem_id = problem_id
