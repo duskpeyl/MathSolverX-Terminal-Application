@@ -93,7 +93,7 @@ Once you have changed the permissions of the bash script within the root directo
 
 This will download all of the dependencies needed for the program to run, then start the program itself.
 
-### References 
+## References 
 
 * Python Software Foundation (2024). Datetime — Basic Date and Time Types — Python 3.12.3 Documentation. [online] Python.org. Available at: [Link to datetime library](https://docs.python.org/3/library/datetime.html).
 * GNU (2022). Bash Reference Manual. [online] Available at: [Link to Bash Manual](https://www.gnu.org/software/bash/manual/bash.html).
