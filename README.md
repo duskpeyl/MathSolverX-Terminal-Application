@@ -85,7 +85,7 @@ After installing the project in the form of a zip file, unzip the project and ch
 
 This will allow your computer to execute the file.
 
-### Step 3: Run the program
+### Step 3: Run the Program
 
 Once you have changed the permissions of the bash script within the root directory of the unzipped project, run the following command:
 
