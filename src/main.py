@@ -129,6 +129,7 @@ class MathLearningSystem:
                 'statement': 'How many ways are there to split the integers $1$ through $14$ into $7$ pairs such that in each pair, the greater number is at least $2$ times the lesser number?',
                 'solution': '144'}
             ]
+        #create a Problem instance of a randomly selected math problem.
         for current_item in problemset:
             item_problem_id = current_item['id']
             item_topic = current_item['topic']
@@ -136,7 +137,7 @@ class MathLearningSystem:
             item_statement = current_item['statement']
             item_solution = current_item['solution']
             problem_given_by_system = Problem(problem_id=item_problem_id, topic=item_topic, difficulty=item_difficulty, statement=item_statement, solution=item_solution)
-
+        #Add a new Problem instance to the list of stored math problems inside the math system.
             Problem.add_new_problem(problem_given_by_system)
 
 
