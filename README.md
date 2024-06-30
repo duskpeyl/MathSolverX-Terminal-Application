@@ -30,29 +30,46 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 
 ## Implementation Plan 
 
-### Overall Plan 
+<details>
+  <summary>Implementation Plan Details</summary>
 
-![Overall_Plan](./docs/Overall_Plan.PNG)
+#### Overall Plan 
 
-### Day-by-day 
+<details>
+  <summary>Overall Plan</summary>
+  <img src="./docs/Overall_Plan.PNG" alt="Overall Plan">
+</details>
+
+## Day-by-Day 
+
+<details>
+  <summary>Day-by-Day Breakdown</summary>
 
 #### 11/05/2024
-
-![Terminal_Application_Day_1](./docs/Terminal_Application_Day_by_Day_1.PNG)
+<img src="./docs/Terminal_Application_Day_by_Day_1.PNG" alt="Terminal Application Day 1">
 
 #### 12/05/2024
-
-![Terminal_Application_Day_2](./docs/Terminal_Application_Day_by_Day_2.PNG)
+<img src="./docs/Terminal_Application_Day_by_Day_2.PNG" alt="Terminal Application Day 2">
 
 #### 13/05/2024
+<img src="./docs/Terminal_Application_Day_by_Day_3.PNG" alt="Terminal Application Day 3">
 
-![Terminal_Application_Day_3](./docs/Terminal_Application_Day_by_Day_3.PNG)
+</details>
 
-![TODO_levelup_checklist](./docs/todo_levelup.PNG)
-![TODO_menu_checklist](./docs/todo_menu.PNG)
-![TODO_problems_checklist](./docs/todo_problems.PNG)
-![TODO_progress_checklist](./docs/todo_progress.PNG)
-![TODO_userstats_checklist](./docs/todo_userstats.PNG)
+## Checklists
+
+<details>
+  <summary>TODO Checklists</summary>
+
+![TODO Levelup Checklist](./docs/todo_levelup.PNG)
+![TODO Menu Checklist](./docs/todo_menu.PNG)
+![TODO Problems Checklist](./docs/todo_problems.PNG)
+![TODO Progress Checklist](./docs/todo_progress.PNG)
+![TODO Userstats Checklist](./docs/todo_userstats.PNG)
+
+</details>
+
+</details>
 
 ### Dependencies 
 
