@@ -33,7 +33,7 @@ The code for this project was styled according to [the PEP 8 Style Guide by Guid
 <details>
   <summary>Implementation Plan Details</summary>
 
-#### Overall Plan 
+## Overall Plan 
 
 <details>
   <summary>Overall Plan</summary>
